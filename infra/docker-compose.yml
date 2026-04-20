@@ -47,7 +47,7 @@ services:
     container_name: kafka-ui
     restart: unless-stopped
     ports:
-      - "127.0.0.1:8080:8080"
+      - "100.125.46.36:8080:8080"
     environment:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: broker:19092
